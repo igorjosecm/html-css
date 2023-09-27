@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    i#burguer{
+        display: none;
+    }
+
+    header{
+        padding-bottom: 15px;
+    }
+
+    menu {
+        display: block;
+        margin: auto;
+    }
+
+    menu ul > li{
+        display: inline-block;
+        margin: auto;
+    }
+
+    menu ul > li > a{
+        background-color: rgba(0, 0, 0, 0.479);
+        display: block;
+        border-radius: 8px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
+    }
+}
